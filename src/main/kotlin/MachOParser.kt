@@ -2,8 +2,6 @@ import java.io.DataInputStream
 import java.io.EOFException
 import java.io.IOException
 import java.io.InputStream
-import java.nio.ByteBuffer
-import java.nio.ByteOrder.LITTLE_ENDIAN
 
 object MachOParser {
     // From mach-o/fat.h
