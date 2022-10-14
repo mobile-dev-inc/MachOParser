@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
 
     val inputStream = file.inputStream()
 
-    val cpuTypes = MachOParser().parseCPUTypes(inputStream.readAllBytes())
+    val cpuTypes = MachOParser.parseCPUTypes(inputStream)
     cpuTypes.forEach {
         println("\t$it")
     }
