@@ -4,6 +4,7 @@ plugins {
     `java-library`
     id("com.palantir.graal") version "0.9.0"
     id("org.graalvm.buildtools.native") version "0.9.5"
+    id("com.vanniktech.maven.publish")
 }
 
 repositories {
