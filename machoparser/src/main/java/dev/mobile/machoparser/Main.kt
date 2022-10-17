@@ -1,7 +1,9 @@
+package dev.mobile.machoparser
+
 import java.io.File
 
 fun main(args: Array<String>) {
-    val file = File(args[0])
+    val file = File("./machoparser/src/test/resources/DevToolTester_arm")
     if (!file.exists()) {
         println("No such file: $file")
     }
