@@ -1,3 +1,5 @@
+package dev.mobile.machoparser
+
 import java.io.DataInputStream
 import java.io.EOFException
 import java.io.IOException

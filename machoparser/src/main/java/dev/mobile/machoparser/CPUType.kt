@@ -1,4 +1,4 @@
-
+package dev.mobile.machoparser
 // From mach/machine.h
 
 private val CPU_ARCH_ABI64 =         0x01000000U      /* 64 bit ABI */
