@@ -3,7 +3,7 @@ name: Publish Release
 on:
   push:
     tags:
-      - '*'
+      - 'v*'
 
 jobs:
   publish:
@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           distribution: 'zulu'
-          java-version: 11
+          java-version: 8
 
       - name: Upload release
         run: ./gradlew publishAllPublicationsToMavenCentralRepository --no-daemon --no-parallel
