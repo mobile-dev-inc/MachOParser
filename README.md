@@ -21,7 +21,8 @@ dependencies {
 ## Usage
 
 ``` kotlin
-if (MachOParser.parseCPUTypes(stream).contains(X86_64)) {
+let file = File(...)
+if (MachOParser.parseCPUTypes(file.inputStream()).contains(X86_64)) {
     // handle X86_64
 }
 ```
