@@ -7,6 +7,17 @@ This library reads the Mach-O file and provides access to its metadata. The CPU 
 
 ## Installation
 
+Gradle:
+``` gradle
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("dev.mobile:machoparser")
+}
+```
+
 ## Usage
 
 ``` kotlin
